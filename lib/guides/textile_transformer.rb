@@ -13,7 +13,7 @@ module Guides
   class TextileTransformer
     LANGUAGES = { "ruby" => "ruby", "sql" => "sql", "javascript" => "javascript",
                   "css" => "css", "plain" => "plain", "erb" => "ruby; html-script: true",
-                  "html" => "xml", "xml" => "xml", "shell" => "plain", "yaml" => "yaml" }
+                  "html" => "xml", "xml" => "xml", "shell" => "plain", "bash" => "bash", "yaml" => "yaml" }
 
     NOTES =     { "CAUTION" => "warning", "IMPORTANT" => "warning", "WARNING" => "warning",
                   "INFO" => "info", "TIP" => "info", "NOTE" => "note" }
