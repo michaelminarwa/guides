@@ -20,9 +20,9 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = ">= 1.3.6"
   s.rubyforge_project         = "guides"
 
-  s.add_dependency "actionpack", "~> 3.1.0"
-  s.add_dependency "activesupport", "~> 3.1.0"
-  s.add_dependency "rack", "~> 1.3.3"
+  s.add_dependency "actionpack", "~> 3.2.0"
+  s.add_dependency "activesupport", "~> 3.2.0"
+  s.add_dependency "rack", "~> 1.4.5"
   s.add_dependency "RedCloth", "~> 4.2.7"
   s.add_dependency "maruku", "~> 0.6.0"
   s.add_dependency "thor", "~> 0.14.6"
@@ -37,4 +37,3 @@ Gem::Specification.new do |s|
   s.executables        = %w(guides)
   s.require_paths      = ["lib"]
 end
-
