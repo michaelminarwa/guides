@@ -20,12 +20,12 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = ">= 1.3.6"
   s.rubyforge_project         = "guides"
 
-  s.add_dependency "actionpack", "~> 3.2.0"
-  s.add_dependency "activesupport", "~> 3.2.0"
-  s.add_dependency "rack", "~> 1.4.5"
+  s.add_dependency "actionpack", "~> 4.0"
+  s.add_dependency "activesupport", "~> 4.0"
+  s.add_dependency "rack", "~> 1.6"
   s.add_dependency "RedCloth", "~> 4.2.7"
   s.add_dependency "maruku", "~> 0.6.0"
-  s.add_dependency "thor", "~> 0.14.6"
+  s.add_dependency "thor", "~> 0.14"
   s.add_dependency "thin", "~> 1.2.7"
 
   if is_mingw
